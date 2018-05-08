@@ -47,7 +47,6 @@ public class FloatFragment extends BaseFragment {
                     @Override
                     public void run() {
                         Toast.makeText(getContext(), "加载完成", Toast.LENGTH_LONG).show();
-                        refreshLayout.NotifyCompleteRefresh0();
                     }
                 }, 500);
             }
