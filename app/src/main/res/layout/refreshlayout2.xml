@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.nestrefreshlib.RefreshViews.RefreshLayout android:background="#fff"
+    android:id="@+id/refreshlayout"
+    app:evaluateable="true"
+    app:canFooter="false"
+    app:overscroll="true"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/imagview"
+                android:src="@drawable/xx"
+                android:scaleType="centerCrop"
+                android:layout_width="match_parent"
+                android:layout_height="100dp" />
+            <TextView
+                android:text="ssss"
+                android:layout_width="wrap_content"
+                android:layout_height="100dp" />
+            <TextView
+                android:text="dsxxxdd"
+                android:layout_width="wrap_content"
+                android:layout_height="100dp" />
+            <TextView
+                android:text="ssss"
+                android:layout_width="wrap_content"
+                android:layout_height="100dp" />
+            <TextView
+                android:text="dsdd"
+                android:layout_width="wrap_content"
+                android:layout_height="100dp" />
+            <TextView
+                android:text="ssss"
+                android:layout_width="wrap_content"
+                android:layout_height="100dp" />
+            <TextView
+                android:text="dsxxxdd"
+                android:layout_width="wrap_content"
+                android:layout_height="100dp" />
+            <TextView
+                android:text="ssss"
+                android:layout_width="wrap_content"
+                android:layout_height="100dp" />
+            <TextView
+                android:text="dsdd"
+                android:layout_width="wrap_content"
+                android:layout_height="100dp" />
+            <TextView
+                android:text="ssss"
+                android:layout_width="wrap_content"
+                android:layout_height="100dp" />
+            <TextView
+                android:text="dsxxxdd"
+                android:layout_width="wrap_content"
+                android:layout_height="100dp" />
+            <TextView
+                android:text="ssss"
+                android:layout_width="wrap_content"
+                android:layout_height="100dp" />
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+</com.nestrefreshlib.RefreshViews.RefreshLayout>
