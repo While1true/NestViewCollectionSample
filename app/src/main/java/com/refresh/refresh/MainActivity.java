@@ -45,4 +45,15 @@ public class MainActivity extends AppCompatActivity {
     public void HorizontalScroll(View view) {
         showF(HorizontalFragment.class);
     }
+
+    public void floatview(View view) {
+        showF(FloatFragment.class);
+    }
+
+    public void Stateview(View view) {
+        showF(StateFragment.class);
+    }
+    public void StateAdapterview(View view) {
+        showF(StateAdapterFragment.class);
+    }
 }

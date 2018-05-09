@@ -38,4 +38,29 @@ public class AdapterUtils {
                 });
         return adapter;
     }
+    public static StateAdapter produceStateAdapter(int size){
+        StateAdapter adapter=new StateAdapter(size)
+                .addType(R.layout.item1,new PositionHolder() {
+                    @Override
+                    public void onBind(Holder holder, int i) {
+                        holder.setText(R.id.textView,"第"+i+"个item");
+                    }
+
+                    @Override
+                    public boolean istype(int position) {
+                        return position%3==0;
+                    }
+                }).addType(R.layout.item2, new PositionHolder() {
+                    @Override
+                    public void onBind(Holder holder, int i) {
+                        holder.setText(R.id.textView,"第"+i+"个item");
+                    }
+
+                    @Override
+                    public boolean istype(int i) {
+                        return true;
+                    }
+                });
+        return adapter;
+    }
 }

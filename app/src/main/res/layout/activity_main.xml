@@ -10,40 +10,63 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:onClick="Refresh"
         android:layout_marginTop="15dp"
+        android:onClick="Refresh"
         android:text="基本刷新" />
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:onClick="InnerRefresh"
         android:layout_marginTop="15dp"
+        android:onClick="InnerRefresh"
         android:text="内刷新+自动加载" />
 
     <Button
-        android:layout_marginTop="15dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
         android:onClick="Overscroll"
         android:text="overscroll" />
 
     <Button
-        android:layout_marginTop="15dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
         android:onClick="Elasticscroll"
         android:text="Elasticscroll" />
+
     <Button
-        android:layout_marginTop="15dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
         android:onClick="HeaderExpand"
         android:text="头部变大+非recyclerview" />
+
     <Button
-        android:layout_marginTop="15dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
         android:onClick="HorizontalScroll"
         android:text="水平滑动" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:onClick="floatview"
+        android:text="悬浮" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:onClick="Stateview"
+        android:text="状态" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:onClick="StateAdapterview"
+        android:text="Adapter状态" />
 </LinearLayout>
