@@ -42,7 +42,7 @@ public class MainActivity extends AppCompatActivity {
         showF(HeaderExpandFragment.class);
     }
 
-    public void FloatView(View view) {
-        showF(FloatFragment.class);
+    public void HorizontalScroll(View view) {
+        showF(HorizontalFragment.class);
     }
 }

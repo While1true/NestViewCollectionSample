@@ -39,11 +39,11 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:onClick="HeaderExpand"
-        android:text="头部变大" />
+        android:text="头部变大+非recyclerview" />
     <Button
         android:layout_marginTop="15dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:onClick="FloatView"
-        android:text="悬浮" />
+        android:onClick="HorizontalScroll"
+        android:text="水平滑动" />
 </LinearLayout>

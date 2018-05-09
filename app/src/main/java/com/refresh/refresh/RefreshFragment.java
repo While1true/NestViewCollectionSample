@@ -46,13 +46,16 @@ public class RefreshFragment extends BaseFragment {
                     public void run() {
                         Toast.makeText(getContext(), "加载完成", Toast.LENGTH_LONG).show();
                         refreshLayout.NotifyCompleteRefresh0();
+                        refreshLayout.setShowNomore(true);
                     }
                 }, 500);
             }
         });
 
-        RecyclerView recyclerView = refreshLayout.getmScroll();
-        recyclerView.setLayoutManager(new LinearLayoutManager(getContext()));
-        recyclerView.setAdapter(AdapterUtils.produceAdapter(20));
+        refreshLayout.setLinearVirtical(AdapterUtils.produceAdapter(20));
+
+        //or
+
+//      refreshLayout.setRecyclerviewProperity(adapter,layoutmanage);
     }
 }

@@ -49,12 +49,13 @@ public class InnerRefreshFragment extends BaseFragment {
                     public void run() {
                         refreshAdapterHandler.stopLoading("没有更多了");
                     }
-                }, 500);
+                }, 1000);
             }
         });
 
         refreshAdapterHandler = new RefreshAdapterHandler();
         refreshAdapterHandler.attachRefreshLayout(refreshLayout,AdapterUtils.produceAdapter(20),new LinearLayoutManager(getContext()));
+
         //自动加载
         RecyclerView recyclerView= refreshLayout.getmScroll();
         recyclerView.addOnScrollListener(new AdapterScrollListener(refreshLayout));
