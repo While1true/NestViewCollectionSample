@@ -23,6 +23,7 @@ public class OverscrollFragment extends BaseFragment {
     @Override
     public void onViewCreated(@NonNull View view) {
         refreshLayout = view.findViewById(R.id.refreshlayout);
+        refreshLayout.getAttrsUtils().setOVERSCROLL(true);
         RecyclerView recyclerView = refreshLayout.getmScroll();
         recyclerView.setLayoutManager(new LinearLayoutManager(getContext()));
         recyclerView.setAdapter(AdapterUtils.produceAdapter(20));
