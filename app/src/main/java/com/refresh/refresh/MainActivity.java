@@ -56,4 +56,8 @@ public class MainActivity extends AppCompatActivity {
     public void StateAdapterview(View view) {
         showF(StateAdapterFragment.class);
     }
+
+    public void floderRecyclerview(View view) {
+        showF(FolderFragment.class);
+    }
 }
